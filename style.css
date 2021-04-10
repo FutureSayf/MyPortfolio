@@ -6,7 +6,7 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700'); */
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -27,6 +27,7 @@ body {
     color: #999999;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
+    
     line-height: 1.80857;
 }
 
@@ -303,15 +304,12 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 
-.navbar-dark{
- background-color: rgb(0, 0, 0);	
-}
-
 .navbar-dark .navbar-nav .nav-link{
 	color: #ffffff;
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
+ 
 }
 .navbar-dark .navbar-nav .nav-link:hover{
 	color: #ffffff;
@@ -360,9 +358,9 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     z-index: 0;
-    opacity: .6;
+    opacity: .5;
 }
 .heading{
 	color: #fff;
@@ -443,7 +441,9 @@ xclip
   opacity: 1;
 }
 
-
+#mainNav{
+    font-family: 'Cinzel', serif;
+}
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1479,6 +1479,8 @@ hr.invis1 {
 .gallery-list .gallery-single:hover .img-overlay .hoverbutton{
 	opacity: 1;
 	top: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -2467,4 +2469,35 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* test */
+
+.introtext{
+    
+    margin-top: 20px;
+    width: 525px;
+    height: 550px;
+    /* background-color: rgb(141, 107, 173); */
+    background-color: rgba(255, 255, 255, 0.513);
+    
+}
+.introtext h1{
+    color: red;
+    text-align: center;
+    font-size: 70px;
+    /* opacity: 85%; */
+}
+#app{
+    text-align: center;
+    font-size: 70px;
+    opacity: 85%;
+    color: red;
+}
+#intro{
+    text-align: center;
+    font-size: 85px;
+    opacity: 85%;
+    color: red;
 }
