@@ -312,7 +312,8 @@ a img.aligncenter {
  
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #ffffff;
+	/* color: #ffffff; */
+    color: rgb#ffffff;
 }
 .navbar-dark .navbar-nav .nav-link.active{
 	font-weight: 600;
@@ -363,21 +364,33 @@ a img.aligncenter {
     opacity: .5;
 }
 .heading{
-	color: #fff;
-	display: table-cell;
+	/* color: #fff; */
+	color: rgba(56, 129, 34, 0.541);
+	/* display: table-cell; */
+    display: flex;
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
+
+
 }
 .heading h1{
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 45px;
 	text-transform: uppercase;
+    /* padding: 50px; */
 }
 .heading p{
 	font-size: 18px;
 	padding: 20px 0px;
+}
+.heading h2{
+	color: #37393fe8;
+	/* font-weight: 700; */
+	font-size: 32px;
+	/* text-transform: uppercase; */
+    /* padding: 50px; */
 }
 
 .heading h3{
@@ -411,11 +424,22 @@ a img.aligncenter {
 xclip 
 
 -------------------------------- */
+.cd-headline.clip {
+    /* background-color: rgba(69, 129, 29, 0.431); */
+    margin-top: 25em;
+    /* margin-right: -50em; */
+}
+
+
 .cd-headline.clip span {
+  /* display: inline-block; */
   display: inline-block;
   padding: .2em 0;
+  /* padding: 5em 0; */
+  /* padding-bottom: 7em 0; */
   color: #ffffff;
   font-size: 30px;
+  
 }
 .cd-headline.clip span b{
 	text-transform: uppercase;
@@ -447,7 +471,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #000000;
 }
 
 #clouds{

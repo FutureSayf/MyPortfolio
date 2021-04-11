@@ -15,14 +15,15 @@
     position: relative;
     overflow: hidden;
 	/* z-index: 1; */
-    /* display: flex; */
+    display: flex;
     background-image: url(/uploads/max-van-den-oetelaar-Zz6-8oJNn-A-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    height: 1060px;
+    height: 860px;
     opacity: 42%;
     width: 200%;
+	
 }
 .glitch__layers {
 	position: absolute;
@@ -31,6 +32,8 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
+
+	overflow: hidden;
 }
 .glitch__layer {
 	position: absolute;
@@ -44,7 +47,7 @@
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: cover;
-
+	
 }
 .glitch__layer:nth-child(1) {
 	transform: translateX(-5%);
