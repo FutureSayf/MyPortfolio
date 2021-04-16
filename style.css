@@ -365,7 +365,7 @@ a img.aligncenter {
 }
 .heading{
 	/* color: #fff; */
-	color: rgba(56, 129, 34, 0.541);
+	color: rgba(56, 129, 34, 0.65);
 	/* display: table-cell; */
     display: flex;
 	vertical-align: middle;
@@ -2067,7 +2067,7 @@ select.mobile-device {
 .contact_form {
     border: 1px solid #ededed;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
+    background-color: #f2f3f5de;
     padding: 40px 30px;
 }
 
@@ -2107,7 +2107,8 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #333333;
+    /* background: url(images/bg.png) no-repeat center center #333333; */
+    background: url(./uploads/Graffiti.jpg) no-repeat center center #333333;
 }
 
 
