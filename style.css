@@ -574,6 +574,7 @@ xclip
 }
 
 .section-title h3 {
+    /* font-family: cinzel, sans-serif; */
     font-size: 38px;
     font-weight: 500;
     line-height: 62px;
@@ -638,7 +639,7 @@ xclip
 
 .btn-hover-new:hover{
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #000000;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
@@ -1448,8 +1449,9 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #333333;
-	color: #fff;
+	background: #000000;
+	/* color: #fff; */
+	color: rgba(255, 94, 0, 0.801);
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 }
 
@@ -1459,6 +1461,7 @@ hr.invis1 {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 14px;
+    font-family: Roboto Mono, monospace;
 	cursor: pointer;
 	background: #fff;
 	padding: 12px 40px;
@@ -2114,6 +2117,8 @@ select.mobile-device {
 
 #contact .section-title p{
 	color: #ffffff;
+	/* color: #bafd02f3; */
+    font-size: 20px;
 }
 
 .contact_form textarea.form-control{
@@ -2363,7 +2368,7 @@ select.mobile-device {
 }
 
 .dmtop {
-    background-color: #3C3D41;
+    background-color: #000000d7;
     z-index: 100;
     width: 50px;
     height: 50px;
