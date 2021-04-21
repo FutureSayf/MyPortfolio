@@ -15,7 +15,7 @@
 	}
 	.navbar-dark .navbar-toggler{
 		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+		/* border-color: rgba(255,255,255); */
 	}
 	.heading h1{
 		font-size: 28px;
@@ -63,7 +63,7 @@
 	}
 	.navbar-dark .navbar-toggler{
 		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+		/* border-color: rgba(255,255,255); */
 	}
 	.heading h1{
 		font-size: 28px;
@@ -111,7 +111,7 @@
 	}
 	.navbar-dark .navbar-toggler{
 		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+		/* border-color: rgba(255,255,255); */
 	}
 	.heading h1{
 		font-size: 28px;

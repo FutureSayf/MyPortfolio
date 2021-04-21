@@ -511,10 +511,16 @@ xclip
 
 .section.wb {
     background-color: #ffffff;
+    
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    /* background-color: #f2f3f5; */
+    /* background-color: #000000; */
+    background: url(./uploads/purple-splash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section.db {
@@ -1450,13 +1456,15 @@ hr.invis1 {
 
 .filter-button-group button.active{
 	background: #000000;
-	/* color: #fff; */
-	color: rgba(255, 94, 0, 0.801);
-	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+	color: #fff;
+	/* color: rgba(255, 94, 0, 0.801); */
+	/* box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	 */
+	box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233);	
 }
 
 .filter-button-group button{
-	color: #333;
+	/* color: #333; */
+	color: rgb(0, 0, 0);
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -2070,8 +2078,10 @@ select.mobile-device {
 .contact_form {
     border: 1px solid #ededed;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5de;
+    background-color: #f2f3f5b7;
     padding: 40px 30px;
+    /* width: 50%; */
+    /* height: 150%; */
 }
 
 .contact_form .form-control {
@@ -2246,6 +2256,12 @@ select.mobile-device {
     text-align: left;
     padding: 30px 0px;
     overflow: hidden;
+}
+.fab{
+    font-size: 30px;
+}
+.fab:hover{
+    color: rgba(215, 82, 34, 0.781);
 }
 
 
