@@ -167,18 +167,21 @@
 }
 .owl-next i,
 .owl-prev i {
-  background-color: #111;
-  width: 60px;
-  height: 60px;
-  font-size: 28px;
-  line-height: 60px;
+  /* background-color: #111; */
+  background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
   text-align: center;
   right:auto;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #000000;
 }
 
 .owl-next i:hover, .owl-prev i:hover{
-	background: #cccccc;
+	/* background: #cccccc; */
+    box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233);	
 }
 
 .owl-next i {

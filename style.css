@@ -361,7 +361,7 @@ a img.aligncenter {
     right: 0;
     background-color: rgb(0, 0, 0);
     z-index: 0;
-    opacity: .5;
+    opacity: .7;
 }
 .heading{
 	/* color: #fff; */
@@ -573,6 +573,7 @@ xclip
 
 .section-title p {
     color: #999;
+    /* color: rgb(109, 109, 109); */
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -646,6 +647,7 @@ xclip
 .btn-hover-new:hover{
 	color: #ffffff;
 	background-color: #000000;
+    box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233);	
 }
 .btn-hover-new:hover > span {
     opacity: 0;
@@ -2259,6 +2261,7 @@ select.mobile-device {
 }
 .fab{
     font-size: 30px;
+    margin-left: 10px;
 }
 .fab:hover{
     color: rgba(215, 82, 34, 0.781);
