@@ -305,7 +305,9 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #ffffff;
+	/* color: #ffffff; */
+    /* color: #888888; */
+    color: #888888da;
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
@@ -377,7 +379,8 @@ a img.aligncenter {
 .heading h1{
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 45px;
+	/* font-size: 45px; */
+	font-size: 50px;
 	text-transform: uppercase;
     /* padding: 50px; */
 }
@@ -2268,7 +2271,8 @@ select.mobile-device {
 }
 .fab:hover{
     color: rgba(215, 82, 34, 0.781);
-    box-shadow: 2px 20px 45px 5px rgba(2, 255, 255, 0.233);	
+    /* box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233);	 */
+    box-shadow: 2px 20px 45px 5px rgba(2, 225, 255, 0.342);	
 }
 
 
