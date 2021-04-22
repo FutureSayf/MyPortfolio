@@ -867,6 +867,9 @@ xclip
     background: #000;
     border: 1px solid #111111;
 }
+.desc:hover span {
+    color: rgba(215, 82, 34, 0.781);
+}
 
 .testi-meta {
     display: block;
@@ -2265,6 +2268,7 @@ select.mobile-device {
 }
 .fab:hover{
     color: rgba(215, 82, 34, 0.781);
+    box-shadow: 2px 20px 45px 5px rgba(2, 255, 255, 0.233);	
 }
 
 
@@ -2389,9 +2393,9 @@ select.mobile-device {
 .dmtop {
     background-color: #000000d7;
     z-index: 100;
-    width: 50px;
-    height: 50px;
-    line-height: 47px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     position: fixed;
     bottom: -100px;
     border-radius: 3px;
@@ -2405,6 +2409,9 @@ select.mobile-device {
     -o-transition: all .7s ease-in-out;
     -ms-transition: all .7s ease-in-out;
     transition: all .7s ease-in-out;
+}
+.dmtop:hover{
+    color: rgba(215, 82, 34, 0.781) !important;
 }
 
 .icon_wrap {

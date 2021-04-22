@@ -182,6 +182,7 @@
 .owl-next i:hover, .owl-prev i:hover{
 	/* background: #cccccc; */
     box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233);	
+    /* color: rgba(215, 82, 34, 0.781); */
 }
 
 .owl-next i {
