@@ -1521,8 +1521,8 @@ hr.invis1 {
 
 .gallery-list .gallery-single:hover .img-overlay {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
 }
 
 .gallery-list .gallery-single:hover .img-overlay .hoverbutton{
@@ -1531,8 +1531,9 @@ hr.invis1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    opacity: 0.5;
-    box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233);
+    opacity: 1;
+    /* box-shadow: 2px 20px 45px 5px rgba(217, 2, 255, 0.233); */
+    box-shadow: 2px 20px 45px 5px rgba(2, 217, 255, 0.233);
 }
 
 
