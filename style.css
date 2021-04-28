@@ -867,6 +867,8 @@ xclip
 
 .desc h3 i {
     color: #cccccc;
+    /* color: #b86d6d; */
+    /* text-shadow: 0 0 3px #fdfdfd; */
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -879,7 +881,12 @@ xclip
     border: 1px solid #111111;
 }
 .desc:hover span {
-    color: rgba(215, 82, 34, 0.781);
+    /* color: rgba(215, 82, 34, 0.781); */
+    color: rgba(255, 255, 255, 0.781);
+    /* text-shadow: 0 0 3px #fdfdfd; */
+}
+.desc:hover p{
+    text-shadow: 0 0 1px #fdfdfd;
 }
 
 .testi-meta {
@@ -912,6 +919,7 @@ xclip
     font-size: 20px;
     font-weight: 600;
 	color: #ffffff;
+
 }
 
 .testimonial small,
