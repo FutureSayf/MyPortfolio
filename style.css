@@ -1521,6 +1521,7 @@ hr.invis1 {
     right: 10px;
     bottom: 10px;
     background: rgba(51, 51, 51, 0.637);
+    /* background: rgba(126, 59, 59, 0.637); */
     color: #3b4c35;
     opacity: 0;
     -webkit-transition: all .5s;
